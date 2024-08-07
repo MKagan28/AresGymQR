@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    background-image: url(images/back.png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+}
+
+.welcome p {
+    
+    margin-top: 25px;
+    position: relative;
+    background: transparent;
+    text-decoration: underline;
+    top: 60%;  
+    width: 24em;
+    font-weight: bold;
+    color: rgb(232, 0, 0);
+    font-family:"Nunito Sans", sans-serif;;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);   
+    
+}
+.anim-typewriter{
+    animation: typewriter 4s steps(44) 1s 1 normal both,
+               blinkTextCursor 500ms steps(44) infinite normal;
+  }
+  @keyframes typewriter{
+    from{width: 0;}
+    to{width: 24em;}
+  }
+  @keyframes blinkTextCursor{
+    from{border-right-color: rgba(255,255,255,.75);}
+    to{border-right-color: transparent;}
+  }
+
+.price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price img {
+    border: 2px solid rgb(230, 3, 3);
+    border-radius: 10px;
+    margin-top: 25px;
+    width: 300px;
+    height: 450px;
+}
+
+.details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+}
+
+.details h1 {
+    background: transparent;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 300px;
+    font-size: 12px;
+    color: white;  
+    margin-top: 17px;
+    margin-right: 103px;
+}
+
+.details i {
+    color: red;
+    background: transparent;
+}
+
+.details-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    margin-top: 8px;
+}
+
+.details-2 h1 {
+    background: transparent;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 300px;
+    font-size: 12px;
+    color: white;  
+    margin-top: 14px;
+    margin-right: 24px;
+}
+
+.details-2 i {
+    color: red;
+    background: transparent;
+}
+
+.pics {
+    margin-top: 28px;
+    width: 320px;
+    height: 240px;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid red;
+    border-radius: 13px;
+    background-color: transparent;
+}
+
+.carousel-inner {
+    position: relative;
+    left: 10vw;
+    background-color: transparent;
+}
+
+.carousel-control-next-icon {
+    position: relative;
+    right: 6vw;
+    top: 5vw;
+    background: red;
+    border-radius: 10px;
+    
+}
+
+.carousel-control-prev-icon {
+    position: relative;
+    left: 3vw;
+    top: 4vw;
+    background: red;
+    border-radius: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: 25px;
+    background: transparent;
+}
+
+nav a {
+    color: transparent;
+}
+
+nav i2 {
+    color: red;
+    font-size: 32px;
+    background-color: transparent;
+}
+
+nav i3 {
+    color: red;
+    font-size: 32px;
+    background-color: transparent;
+}
+
+nav i4 {
+    color: red;
+    font-size: 32px;
+    background-color: transparent;
+}
